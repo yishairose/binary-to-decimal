@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+
+
+.container {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fefae0;
+    padding: 25px;
+}
+
+.number-display {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 30px;
+    margin: 30px 0;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffb703;
+    letter-spacing: 4px;
+    font-size: 1.5em;
+    background-color: black;
+}
+
+.alert {
+    background-color: rgba(204, 87, 116, 0.712);
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+
+.alert-visible {
+    visibility: visible;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+input {
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    outline-color: #e9edc9;
+    flex: 2;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    flex: 1;
+    background-color: #e9edc9;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #faedcd;
+}
